@@ -62,7 +62,7 @@ function waitForModal() {
 
 // Handle the "Delete repost" action in the modal
 function performDelete() {
-    // Look for the modal (using the class from the screenshot you provided)
+    // Look for the modal
     var modal = $(".dropdownMenu.g-z-index-overlay");
     if (modal.length > 0) {
         console.log("Modal is visible.");
